@@ -1,0 +1,15 @@
+---
+id: nyankosakana
+tags:
+- nyanko
+- sakana
+version: 0.1.0
+licenses:
+- CC BY-SA 3.0
+author:
+  markup_language: :rd
+  name: Masafumi Yokoyama
+  email: myokoym@gmail.com
+  rubygems_user: myokoym
+  slideshare_user: myokoym
+  speaker_deck_user: myokoym
