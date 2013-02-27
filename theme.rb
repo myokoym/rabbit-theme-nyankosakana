@@ -77,16 +77,16 @@ end
 
 match(TitleSlide, "*") do |elements|
   elements.horizontal_centering = false
-  elements.align = Pango::Layout::ALIGN_RIGHT
+  elements.align = :right
 end
 
 match(TitleSlide, Title) do |titles|
   titles.padding_bottom = @space * 2
-  titles.align = Pango::Layout::ALIGN_LEFT
+  titles.align = :left
 end
 
 match(TitleSlide, Subtitle) do |titles|
-  titles.align = Pango::Layout::ALIGN_LEFT
+  titles.align = :left
 end
 
 match(Slide, HeadLine) do |heads|
