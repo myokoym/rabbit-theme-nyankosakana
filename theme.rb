@@ -1,4 +1,5 @@
 @font_family = find_font_family("ubuntu") || @font_family
+@monospace_font_family= find_font_family("ubuntu mono") || @monospace_font_family
 
 base_color = "#ffde00"
 base_dark_color = "#ffde00"
