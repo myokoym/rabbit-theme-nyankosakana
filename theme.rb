@@ -48,6 +48,7 @@ add_image_path("rabbit-images")
 @image_timer_image ||= "mini-sakana.png"
 @image_slide_number_start_flag_color = base_color
 @image_slide_number_goal_flag_color = base_dark_background_color
+@image_slide_number_text_color = "black"
 @block_quote_open_quote_image = "open-quote-sakana.png"
 @block_quote_close_quote_image = "close-quote-sakana.png"
 
