@@ -85,6 +85,10 @@ match(TitleSlide, Title) do |titles|
   titles.align = Pango::Layout::ALIGN_LEFT
 end
 
+match(TitleSlide, Subtitle) do |titles|
+  titles.align = Pango::Layout::ALIGN_LEFT
+end
+
 match(Slide, HeadLine) do |heads|
   name = "head-line"
   heads.delete_post_draw_proc_by_name(name)
