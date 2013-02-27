@@ -1,6 +1,6 @@
-= にゃんこさかな
+= The cat and a fish
 
-にゃんことさかなのせめぎあい
+The cat has run after a fish.
 
 == 作者向け
 
