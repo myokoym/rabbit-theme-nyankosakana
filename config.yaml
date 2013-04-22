@@ -5,6 +5,7 @@ tags:
 - sakana
 version: 0.2.27
 licenses:
+- GPLv2+
 - CC BY-SA 3.0
 author:
   markup_language: :rd
