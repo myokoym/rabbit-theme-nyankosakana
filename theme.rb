@@ -2,7 +2,7 @@
 @monospace_font_family = find_font_family("ubuntu mono") || @monospace_font_family
 
 base_color = "#ffde00"
-base_dark_color = "#ffde00"
+base_dark_color = "#ff8c00" # darkorange
 base_dark_background_color = "#c1d2f4"
 base_background_color = "#ffffff"
 
