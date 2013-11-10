@@ -1,6 +1,6 @@
 # The cat and a fish
 
-The cat has run after a fish.
+The cat has running after a fish.
 
 ## 作者向け
 
