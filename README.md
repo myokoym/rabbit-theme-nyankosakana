@@ -2,23 +2,23 @@
 
 The cat has running after a fish.
 
-## 作者向け
+## For author
 
-### 表示
+### Show
 
     rake
 
-### 公開
+### Publish
 
     rake publish
 
-## 利用者用
+## For users
 
-### インストール
+### Install
 
     gem install rabbit-theme-nyankosakana
 
-### 表示
+### Show
 
     rabbit -t rabbit-theme-nyankosakana rabbit-theme-benchmark-ja.gem
 
