@@ -1,3 +1,15 @@
+@lightning_talk_proc_name = "lightning-nyankosakana"
+@lightning_talk_as_large_as_possible = true
+include_theme("lightning-talk-toolkit")
+
+match(Slide) do |slides|
+  slides.each do |slide|
+    if slide.lightning_talk?
+      slide.lightning_talk
+    end
+  end
+end
+
 @font_family = find_font_family("ubuntu") || @font_family
 @monospace_font_family = find_font_family("ubuntu mono") || @monospace_font_family
 
@@ -64,18 +76,6 @@ add_image_path("rabbit-images")
 @margin_bottom = canvas.height * 0.05
 
 include_theme("default")
-
-@lightning_talk_proc_name = "lightning-nyankosakana"
-@lightning_talk_as_large_as_possible = true
-include_theme("lightning-talk-toolkit")
-
-match(Slide) do |slides|
-  slides.each do |slide|
-    if slide.lightning_talk?
-      slide.lightning_talk
-    end
-  end
-end
 
 match(TitleSlide, "*") do |elements|
   elements.horizontal_centering = false
