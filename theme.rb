@@ -1,5 +1,5 @@
 @lightning_talk_proc_name = "lightning-nyankosakana"
-@lightning_talk_as_large_as_possible = true
+@lightning_talk_as_large_as_possible = false
 include_theme("lightning-talk-toolkit")
 include_theme("title-on-image-toolkit")
 
