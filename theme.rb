@@ -7,7 +7,7 @@ match(Slide) do |slides|
   slides.each do |slide|
     if slide.lightning_talk?
       slide.lightning_talk
-    elsif slide.title_on_image? and slide["enable-title-on-image"] = "true"
+    elsif slide.title_on_image? and slide["enable-title-on-image"] == "true"
       slide.headline.padding_top = @space
       slide.headline.padding_bottom = @space
 
